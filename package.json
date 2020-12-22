@@ -1,0 +1,24 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernanEd/restaurant-page.git"
+  },
+  "keywords": [],
+  "author": "Fernando_Ed <fernaned.bm@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FernanEd/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/FernanEd/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.11.0",
+    "wepack-cli": "0.0.1-security"
+  }
+}
