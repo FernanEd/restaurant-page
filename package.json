@@ -19,6 +19,6 @@
   "homepage": "https://github.com/FernanEd/restaurant-page#readme",
   "devDependencies": {
     "webpack": "^5.11.0",
-    "wepack-cli": "0.0.1-security"
+    "webpack-cli": "^4.2.0"
   }
 }
