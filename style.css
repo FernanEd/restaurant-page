@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Langar&family=Montserrat:wght@500&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&family=Montserrat:wght@500&family=Roboto:wght@300;400&display=swap');
 
 :root{
     --bg: #DB9C77;
@@ -95,18 +95,59 @@ main{
 
 main > #content{
     background-color: white;
-    padding: 1px 25px 25px 25px;
+    padding: 0px;
     box-shadow: 0px 0px 10px 2px rgba(100,40,0,0.2);
     word-wrap: break-word;
 
     text-align: center;
 
-    min-height: calc(100vh - 90px - 110px);
+    min-height: calc(100vh - 190px);
+}
+
+.home-slider{
+    margin: auto;
+    max-width: 1100px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.slider-item{
+    position: relative;
+}
+
+.slider-item img{
+    height: 780px;
+}
+
+.slider-content{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+
+    background: linear-gradient(rgba(219,156,119, 0.1), var(--darkerbg));
+    
 }
+
+.slider-content div{
+    align-self: center;
+    width: 70%;
+    margin: auto;
+
+    font-size: 2em;
+    color: white;
+    text-shadow: 0px 2px 10px black;
+
+}
+
+.slider-signature{
+    font-family: 'Tangerine';
+}
+
+
 
 .contact-flex{
     display: flex;
@@ -114,6 +155,7 @@ main > #content{
     justify-content: center;
     gap: 5em;
 }
+
 
 
 .table{
@@ -159,6 +201,45 @@ footer{
     color: white;
     text-align: center;
 }
+
+
+.home-slider, .contact-flex{
+    display: none;
+}
+
+
+.menu-wrapper{
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.menu-item{
+    width: 300px;
+    padding: 15px;
+
+    border: 1px solid var(--darkbg);
+    box-sizing: border-box;
+}
+
+.menu-item-title{
+    font-family: 'Tangerine';
+    font-size: 2em;
+    margin: 0;
+}
+
+.menu-item-desc{
+    text-align: justify;
+}
+
+.menu-item-price{
+    font-family: 'Tangerine';
+    font-size: 2em;
+    margin: 0;
+}
+
 
 
 @media (max-width: 1300px){
@@ -217,4 +298,13 @@ footer{
         padding: 5px 15px;
         min-width: initial;
     }
+
+    .slider-content div{
+        font-size: 1em;
+    }
+
+    .slider-signature p{
+        font-size: 2em;
+    }
+
 }
