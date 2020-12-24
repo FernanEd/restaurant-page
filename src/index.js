@@ -24,7 +24,6 @@ const TABS = (() => {
 
     const selectTab = (tab) => {
         tab.classList.add('tab-selected');
-        console.log(tab.id);
         let currentPage;
         switch(tab.id){
             case 'home-tab':

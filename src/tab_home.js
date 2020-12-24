@@ -19,17 +19,17 @@ const sliderObjects = [
     {
         title: 'The most exquisite italian cuisine', 
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iste amet numquam nesciunt neque dolores, est, consectetur voluptates delectus et earum ab adipisci repellat non quam labore accusantium enim reiciendis?',
-        imgurl: '../images/best-italian-restaurant-brooklyn-nyc.jpg',
+        imgurl: 'https://i.ibb.co/QMQ6F8p/best-italian-restaurant-brooklyn-nyc.jpg',
     },
     {
         title: 'Made with the best ingredients', 
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iste amet numquam nesciunt neque dolores.',
-        imgurl: '../images/recipes-make-food-part-square.jpg',
+        imgurl: 'https://i.ibb.co/NNfPbx9/recipes-make-food-part-square.jpg',
     },
     {
         title: 'For you', 
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-        imgurl: '../images/gettyimages-1045346796.jpg',
+        imgurl: 'https://i.ibb.co/mT4FXyF/gettyimages-1045346796.jpg',
     }
 ]
 
