@@ -16,11 +16,11 @@ function addMenuItem({title, desc, price}){
 addMenuItem({
     title: 'Pizza Napolitana', 
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iste amet numquam nesciunt neque dolores, est.',
-    price: 14.99,
+    price: 12.99,
 });
 
 addMenuItem({
-    title: 'Pizza Peperonni', 
+    title: 'Pizza di Peperonni', 
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iste amet numquam nesciunt neque dolores, est.',
     price: 14.99,
 });
@@ -29,7 +29,61 @@ addMenuItem({
 addMenuItem({
     title: 'Pizza di Queso', 
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iste amet numquam nesciunt neque dolores, est.',
+    price: 14.99,
+});
+
+addMenuItem({
+    title: 'Lasagna al forno', 
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iste amet numquam nesciunt neque dolores, est.',
+    price: 11.99,
+});
+
+addMenuItem({
+    title: 'Estromboli', 
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iste amet numquam nesciunt neque dolores, est.',
+    price: 7.99,
+});
+
+addMenuItem({
+    title: 'Spaghetti alla bucaniera', 
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iste amet numquam nesciunt neque dolores, est.',
+    price: 11.99,
+});
+
+addMenuItem({
+    title: 'Spaghetti bolognesa', 
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iste amet numquam nesciunt neque dolores, est.',
+    price: 7.99,
+});
+
+addMenuItem({
+    title: 'Spaghetti amatrician', 
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iste amet numquam nesciunt neque dolores, est.',
+    price: 7.99,
+});
+
+addMenuItem({
+    title: 'Spaghetti carbonara', 
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iste amet numquam nesciunt neque dolores, est.',
+    price: 7.99,
+});
+
+addMenuItem({
+    title: 'Risotto', 
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iste amet numquam nesciunt neque dolores, est.',
     price: 12.99,
+});
+
+addMenuItem({
+    title: 'Fetuccini boscaiola', 
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iste amet numquam nesciunt neque dolores, est.',
+    price: 8.99,
+});
+
+addMenuItem({
+    title: 'Fetuccini alla Nona', 
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iste amet numquam nesciunt neque dolores, est.',
+    price: 8.99,
 });
 
 
