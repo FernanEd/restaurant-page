@@ -25,6 +25,25 @@ a:hover{color: var(--secondary);}
 
 h1, h2, h3, h4, h5, h6{font-family: 'Montserrat', sans-serif;}
 
+
+@keyframes fade-in{
+    0% {opacity: 0;}
+    10% {opacity: 0.10;}
+    20% {opacity: 0.20;}
+    30% {opacity: 0.30;}
+    40% {opacity: 0.40;}
+    50% {opacity: 0.50;}
+    60% {opacity: 0.60;}
+    70% {opacity: 0.70;}
+    80% {opacity: 0.80;}
+    90% {opacity: 0.90;}
+    100% {opacity: 1;}
+}
+
+.home-slider, .menu-wrapper, .contact-flex{
+    animation: fade-in 0.4s ease forwards;
+}
+
 .container{
     width: 70%; margin: auto;
     padding: 25px;
@@ -200,11 +219,6 @@ footer{
     background-color: var(--dark);
     color: white;
     text-align: center;
-}
-
-
-.home-slider, .contact-flex{
-    display: none;
 }
 
 
