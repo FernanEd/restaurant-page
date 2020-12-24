@@ -42,7 +42,11 @@ h1, h2, h3, h4, h5, h6{font-family: 'Montserrat', sans-serif;}
 
 .home-slider, .menu-wrapper, .contact-flex{
     animation: fade-in 0.4s ease forwards;
+    padding-bottom: 25px;
 }
+
+
+
 
 .container{
     width: 70%; margin: auto;
@@ -128,7 +132,9 @@ main > #content{
     max-width: 1100px;
     padding: 0;
     overflow: hidden;
+    position: relative;
 }
+
 
 .slider-item{
     position: relative;
@@ -148,7 +154,6 @@ main > #content{
     display: flex;
 
     background: linear-gradient(rgba(219,156,119, 0.1), var(--darkerbg));
-    
 }
 
 .slider-content div{
@@ -170,11 +175,10 @@ main > #content{
 
 .contact-flex{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 5em;
 }
-
 
 
 .table{
@@ -249,14 +253,13 @@ footer{
 }
 
 .menu-item-price{
-    font-family: 'Tangerine';
-    font-size: 2em;
+    font-family: 'Montserrat';
+    font-size: 1em;
     margin: 0;
 }
 
 
-
-@media (max-width: 1300px){
+@media (max-width: 1400px){
     header > .container{
         display: flex;
         flex-direction: column;
@@ -277,9 +280,14 @@ footer{
     }
 
     .container{
-        width: 85%; margin: auto;
+        width: 100%; margin: auto;
         padding: 15px;
     }
+
+    
+}
+
+@media (max-width: 750px){
 
     .contact-flex{
         display: flex;
@@ -293,9 +301,6 @@ footer{
         width: 100%;
     }
 
-}
-
-@media (max-width: 600px){
 
     #logo h1{
         font-size: 2em;
